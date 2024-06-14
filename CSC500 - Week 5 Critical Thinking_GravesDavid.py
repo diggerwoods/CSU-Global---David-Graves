@@ -45,7 +45,7 @@ else:
         message += "You have received 15 points this month."
     elif 6 <= number_of_books <= 7:
         message += "You have received 30 points this month."
-    else: 8 <= number_of_books
+    elif 8 <= number_of_books:
         message += "You have received 60 points this month."
 
 # Display the result
