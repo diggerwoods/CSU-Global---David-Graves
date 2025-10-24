@@ -11,9 +11,11 @@ instructor = {'CSC101': 'Haynes', 'CSC102': 'Alvarado', 'CSC103': 'Rich', 'NET11
 # Step 3: The program should also create a dictionary containing course numbers and the meeting times
  # of each course. Course Number : Meeting Time
 
-meeting_time = {'CSC101': '8:00 a.m.', 'CSC102': '9:00 a.m.', 'CSC103': '10:00 a.m.', 'NET110': '11:00 a.m.', 'COM241': '1:00 p.m.'}
+meeting_time = {'CSC101': '8:00 a.m.', 'CSC102': '9:00 a.m.', 'CSC103': '10:00 a.m.', 'NET110': '11:00 a.m.'
+                , 'COM241': '1:00 p.m.'}
 
-# Step 4: The program should let the user enter a course number and then display the course's room number, instructor, and meeting time.
+# Step 4: The program should let the user enter a course number and then display the course's room number,
+ # instructor, and meeting time.
 
 course_number = input('Enter course number:')
 if course_number in room_number:
