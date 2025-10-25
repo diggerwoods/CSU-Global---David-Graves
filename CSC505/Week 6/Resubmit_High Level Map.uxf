@@ -1,0 +1,54 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>50</y><w>790</w><h>130</h></coordinates><panel_attributes>Step 1 - High Level Requirement
+bg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>80</y><w>140</w><h>80</h></coordinates><panel_attributes>1. Project Team Meets
+w. Customer for
+initial Operating System
+Discussion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>200</y><w>790</w><h>160</h></coordinates><panel_attributes>Step 2 - Detailed Steps
+bg=gray
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>80</y><w>140</w><h>80</h></coordinates><panel_attributes>2. Project Team Meets
+internally to discuss
+high level OS design
+properties</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>80</y><w>140</w><h>80</h></coordinates><panel_attributes>3. Project Team 
+Develops
+Use Case UML based
+off customer feedback
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>80</y><w>140</w><h>80</h></coordinates><panel_attributes>4. Project Team Delivers
+UML to customer for
+detailed steps and 
+requirements discussion
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>110</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>110</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>110</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>110</y><w>690</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>10;120;10;60;670;60;670;10;650;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>230</y><w>140</w><h>80</h></coordinates><panel_attributes>5. Project Team Meets
+w. Customer to walk
+through UML</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>60</y><w>60</w><h>20</h></coordinates><panel_attributes>START
+fg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>230</y><w>140</w><h>80</h></coordinates><panel_attributes>6. Customer provides
+detailed feedback to
+answer requriements
+design questions </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>230</y><w>140</w><h>80</h></coordinates><panel_attributes>7. Project team
+documents
+requirements</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>260</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>260</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>230</y><w>140</w><h>80</h></coordinates><panel_attributes>8. Project team
+meets to discuss
+further refinement or
+move to prototype</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>260</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>260</y><w>690</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;-
+If requirements meet program lang statements 
+proceed to step 9, if not loop to step 6</panel_attributes><additional_attributes>10;150;10;80;670;80;670;10;650;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>300</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>380</y><w>790</w><h>220</h></coordinates><panel_attributes>Step 3 - Algorithm Development
+bg=green
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>410</y><w>140</w><h>80</h></coordinates><panel_attributes>9. Project Team 
+Develops
+UML for Prototype
+based on requirements</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>410</y><w>140</w><h>80</h></coordinates><panel_attributes>10. Project Team 
+Develops Program
+Prototype based on 
+UML</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>410</y><w>140</w><h>80</h></coordinates><panel_attributes>11. Project Team 
+Demos Prototype
+with Customer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>410</y><w>140</w><h>80</h></coordinates><panel_attributes>12. Project Team 
+Iterates and updates
+Solution based on
+Customer Feedback</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>440</y><w>690</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-
+                                      If Definition of Done is reached
+                                      proceed to step 13, if not loop to step 11</panel_attributes><additional_attributes>10;100;10;80;670;80;670;10;650;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>540</y><w>140</w><h>50</h></coordinates><panel_attributes>13. Deliver
+working product
+to customer</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>480</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>520</y><w>60</w><h>20</h></coordinates><panel_attributes>END
+fg=red
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>440</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>440</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>440</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element></diagram>

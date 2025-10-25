@@ -1,0 +1,268 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>150</w><h>100</h></coordinates><panel_attributes>
+1 - PHTRS Display
+
+"Welcome to the 
+Pothole Tracking
+and Repair Portal"
+
+bg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>120</y><w>150</w><h>120</h></coordinates><panel_attributes>2 - Citizen Input
+
+Please enter your 
+contact information:
+&gt; (cit name)
+&gt; (home address)
+&gt; (cit phone)
+
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>260</y><w>150</w><h>150</h></coordinates><panel_attributes>3 - Public Works Dpt
+Repair Sys Database
+
+Citizen Entry created 'x'
+in database including
+
+(cit name) 
+(home address)
+(cit phone)
+
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>130</y><w>150</w><h>110</h></coordinates><panel_attributes>4 - PHTRS Display
+
+"I'm sorry (cit name) to 
+hear about your 
+experience.
+We're here to help."
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>110</y><w>180</w><h>130</h></coordinates><panel_attributes>5 - Citizen Input
+
+Tell us more about
+the pothole please.
+
+&gt; (pot address)
+&gt; (size, scale 1-10)
+&gt; (location, middle, curb, etc.)
+
+bg=yellow
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>260</y><w>230</w><h>150</h></coordinates><panel_attributes>6 - Public Works Dpt
+Repair Sys Database
+
+Pothole Entry Created 'y' associated
+with Citizen Entry 'x' from step 3
+
+(pot address)
+(size, scale 1-10)
+(location, middle, curb, etc.)
+
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>130</y><w>170</w><h>110</h></coordinates><panel_attributes>7 - PHTRS Display
+
+"We just have a few more 
+questions (cit name). We'll
+get a crew to (pot address) 
+to fix the pothole shortly."
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>730</x><y>110</y><w>180</w><h>130</h></coordinates><panel_attributes>8 - Citizen Input
+
+What damage did you
+experience if any?
+
+&gt; (type of damage)
+&gt; ($ estimate of damage)
+
+bg=yellow
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>90</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>190</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>30;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>190</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>30;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>230</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>230</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>130</y><w>150</w><h>110</h></coordinates><panel_attributes>10 - PHTRS Display
+
+"Thank you (cit name)
+for letting us know. We'll
+advise when the pothole
+at (pot address) is fixed."
+
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>190</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>30;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>260</y><w>230</w><h>150</h></coordinates><panel_attributes>9 - Public Works Dpt
+Repair Sys Database
+
+Pothole entry 'y' is updated with
+
+(type of damage)
+($ estimate of damage)
+
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>230</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>450</y><w>180</w><h>150</h></coordinates><panel_attributes>11 - Public Works Dpt
+Repair Sys Database
+
+Work Order 'z' is created with
+all attributes from 'y' then
+assigned repair priority (q) 
+based on (size, scale 1-10)
+and district (d) based on 
+(pot address)
+
+bg=green
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>330</y><w>940</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>10;120;10;100;920;100;920;10;870;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>610</y><w>180</w><h>120</h></coordinates><panel_attributes>12 - Public Works Dpt
+Repair Sys Database
+
+Work Order 'z' is queued
+for Repair in Back End 
+Work Portal System by 
+priority (q) and district (d)
+bg=green
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>450</y><w>200</w><h>120</h></coordinates><panel_attributes>13 - Work Portal Display
+
+"Welcome Repair Crew.
+Log in and select
+the highest priority repair from 
+your district, and iput info about 
+your crew to begin work."
+
+
+bg=gray
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>450</y><w>150</w><h>120</h></coordinates><panel_attributes>14 - Repair Crew Input
+
+&gt; (repair crew id#)
+&gt; (# of people on crew)
+&gt; (equip assigned)
+&gt; (Work order 'z')
+
+bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>510</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>30;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>450</y><w>170</w><h>120</h></coordinates><panel_attributes>16 - Work Portal Display
+
+"Thanks (repair crew id#) 
+for working on 'z' at 
+(pot address). Please provide
+status update."
+
+
+bg=gray
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>610</y><w>180</w><h>120</h></coordinates><panel_attributes>15 - Public Works Dpt
+Repair Sys Database
+
+Work Order 'z' is updated with
+(repair crew id#)
+(# of people on crew)
+(equip assigned)
+bg=green
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>560</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>790</x><y>450</y><w>170</w><h>140</h></coordinates><panel_attributes>17 - Repair Crew Input
+
+Update status as
+
+&gt;1. "Work in progress"
+&gt;2. "Repaired"
+&gt;3. "Temporary Repair"
+&gt;4. "Not Repaired"
+bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>510</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>30;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>590</y><w>160</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>140;90;10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>610</y><w>180</w><h>120</h></coordinates><panel_attributes>18 - Public Works Dpt
+Repair Sys Database
+
+Work Order 'z' is updated with
+status (1,2,3 or 4) then
+(cit name) is notified w. status
+bg=green
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>580</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>790</y><w>180</w><h>140</h></coordinates><panel_attributes>19 - Work Portal Display
+
+"Thanks (repair crew id#) 
+for completing work order 'z'
+at (pot address). Please 
+provide complete work details
+for this job prior to accepting
+another in your district."
+
+
+bg=gray
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>670</y><w>960</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;-
+
+
+If status update entry is '1' repeat step 16; if '2','3' or '4' proceed to 19.
+
+
+
+</panel_attributes><additional_attributes>10;120;10;100;940;100;940;10;900;10</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>560</y><w>120</w><h>230</h></coordinates><panel_attributes>lt=&lt;.
+
+fg=yellow
+
+
+
+
+
+
+
+
+
+If '1' is entered
+in step 17 repeat
+step 16</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>790</y><w>170</w><h>90</h></coordinates><panel_attributes>20 - Repair Crew Input
+
+&gt; (hrs applied to repair)
+&gt; (amount of filler used)
+
+bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>850</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>40;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>60</w><h>20</h></coordinates><panel_attributes>Start
+bg=green
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>900</y><w>180</w><h>110</h></coordinates><panel_attributes>21 - Public Works Dpt
+Repair Sys Database
+
+Work Order 'z' is updated with
+(hrs applied to repair)
+(amount of filler used)
+
+bg=green
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>870</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>850</y><w>180</w><h>160</h></coordinates><panel_attributes>22 - Public Works Dpt
+Repair Sys Database
+
+Cost of repair
+assigned to 'z' as:
+'c' = (hrs applied to repair) x
+(# of people on crew) x
+(equip assigned) x
+(amount of filler used)
+
+
+bg=green
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>930</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>40;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>820</y><w>180</w><h>190</h></coordinates><panel_attributes>
+23 - Public Works Dpt
+Repair Sys Database
+
+Damage file 'df' is created
+containing:
+'x' - (cit name) 
+(home address)
+(cit phone)
+and 
+'y' - (type of damage)
+($ estimate of damage)
+
+
+bg=green
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>930</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>820</y><w>60</w><h>20</h></coordinates><panel_attributes>End
+bg=red
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>560</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>230</y><w>120</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>100;10;100;120;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>230</y><w>110</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>90;10;90;130;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>560</y><w>90</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>70;10;70;120;10;120</additional_attributes></element></diagram>

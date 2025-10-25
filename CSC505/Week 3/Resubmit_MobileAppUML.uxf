@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>90</y><w>160</w><h>90</h></coordinates><panel_attributes>1. Display
+
+'What would you like to 
+add to your shopping list?'
+bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>180</y><w>150</w><h>90</h></coordinates><panel_attributes>2. User Input
+
+- Enter Item name
+ or 
+- Enter done to finish
+bg=yellow
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>180</y><w>150</w><h>90</h></coordinates><panel_attributes>3. User Input
+
+- Enter Quantity
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>210</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>180</y><w>100</w><h>40</h></coordinates><panel_attributes>If Item name
+ entered
+bg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>390</y><w>120</w><h>30</h></coordinates><panel_attributes>If 'done' entered
+bg=blue
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>260</y><w>170</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>150;160;10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>170</y><w>140</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>120;50;10;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>520</x><y>350</y><w>160</w><h>120</h></coordinates><panel_attributes>4. Display
+
+'Your shopping list'
+&amp;
+show all Item names 
+and paired quantity 
+captured from user.
+bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>120</y><w>430</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-
+loop
+</panel_attributes><additional_attributes>10;60;10;20;410;20;410;100;390;100</additional_attributes></element></diagram>

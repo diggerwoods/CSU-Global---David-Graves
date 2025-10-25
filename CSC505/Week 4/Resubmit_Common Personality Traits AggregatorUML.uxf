@@ -1,0 +1,50 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>206</x><y>40</y><w>180</w><h>70</h></coordinates><panel_attributes>1. Display 1
+
+"How many team members
+are there?"</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>416</x><y>40</y><w>180</w><h>70</h></coordinates><panel_attributes>2. User Input 1
+
+&gt; Integer must be input (x)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>416</x><y>130</y><w>180</w><h>60</h></coordinates><panel_attributes>3. Display 2
+
+"Enter your name"</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>506</x><y>100</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>376</x><y>70</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>40;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>636</x><y>130</y><w>180</w><h>60</h></coordinates><panel_attributes>4. User Input 2
+
+&gt; User keys in name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>586</x><y>150</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>50;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>636</x><y>210</y><w>180</w><h>220</h></coordinates><panel_attributes>5. Display 3
+
+"Please select your top 3 
+Personality Traits 
+you have from 
+the following list:
+1. Individual Responsibility
+2. Acute Awareness
+3. Brutal Honesty
+4. Resilience Under Pressure
+5. Sense of Fairness
+6. Attention to Detail
+7. Pragmatism
+Enter a number"</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>716</x><y>180</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>636</x><y>450</y><w>180</w><h>70</h></coordinates><panel_attributes>6. User Input 3
+
+&gt; User keys in number
+(must be on list)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>716</x><y>420</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>806</x><y>320</y><w>120</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Loop 3x</panel_attributes><additional_attributes>10;10;60;10;60;170;10;170</additional_attributes></element><element><id>UMLClass</id><coordinates><x>636</x><y>600</y><w>180</w><h>120</h></coordinates><panel_attributes>7. Display 4
+
+All answers are aggregated
+from user input '3' and 
+returned in list showing 
+descending tally value 
+for top 3 answers
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>726</x><y>540</y><w>200</w><h>40</h></coordinates><panel_attributes>Once (x) loops has been satisfied
+proceed to next step
+bg=yellow
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>506</x><y>180</y><w>240</w><h>370</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Loop (x) times
+from User Input '1'
+ </panel_attributes><additional_attributes>10;10;10;350;220;350;220;340</additional_attributes></element><element><id>Relation</id><coordinates><x>716</x><y>510</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>206</x><y>40</y><w>50</w><h>20</h></coordinates><panel_attributes>Begin
+bg=green
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>636</x><y>600</y><w>50</w><h>20</h></coordinates><panel_attributes>End
+bg=red
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
